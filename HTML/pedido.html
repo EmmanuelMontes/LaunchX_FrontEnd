@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquí haz tu pedido!</title>
+</head>
+<body>  
+    <h1>Sección de pedidos</h1>
+    <form action="./pedido.js">
+    
+        <label for="Nombre">Nombre Completo</label><br>
+        <input type="text" id="name" name="Nombre" placeholder="Tu nombre completo">
+        <br><br>
+        <label for="mesa">Teléfono</label><br>
+        <input type="text" id="teléfono" name="Teléfono" placeholder="7221222222">
+        <br><br>
+        <label for="mesa">Correo Electrónico</label><br>
+        <input type="text" id="email" name="Email" placeholder="micorreo@google.com">
+        <br><br>
+        <hr>
+        <p>Combina sabores de pastel</p>
+            <input type="checkbox" id="saborFresa" name="saborFresa" value="saborFresa">
+            <label for="saberFresa">Fresa</label>
+            <input type="number" id="fresaCuantos" placeholder="¿Cuántos?"><br>
+
+            <input type="checkbox" id="saborDurazno" name="saborDurazno" value="saborDurazno">
+            <label for="saberDurazno">Durazno</label>
+            <input type="number" id="duraznoCuantos" placeholder="¿Cuántos?"><br>
+
+            <input type="checkbox" id="saborMango" name="saborMango" value="saborMango">
+            <label for="saberMango">Mango</label>
+            <input type="number" id="mangoCuantos" placeholder="¿Cuántos?"><br>
+
+            <input type="checkbox" id="tresLeches" name="tresLeches" value="tresLeches">
+            <label for="saberFresa">Tres Leches</label>
+            <input type="number" id="tresLechesCuantos" placeholder="¿Cuántos?"><br>
+
+            <input type="checkbox" id="saborCremoso" name="saborCremoso" value="saborCremoso">
+            <label for="saberCremoso">Cremoso</label>
+            <input type="number" id="cremosoCuantos" placeholder="¿Cuántos?"><br>
+
+            <input type="checkbox" id="saborChicle" name="saborChicle" value="saborChicle">
+            <label for="saberFresa">Chicle</label>
+            <input type="number" id="chicleCuantos" placeholder="¿Cuántos?"><br>
+        <br><br>
+        <hr>
+        <p>Combina adornos para tu pastel</p> 
+
+        <input type="checkbox" id="trozoAvellana" name="trozoAvellana" value="trozoAvellana">
+        <label for="trozoAvellana">Trozo de Avellana</label>
+        <input type="number" id="trozoAvellana1" placeholder="¿Cuántos?"><br>
+
+        <input type="checkbox" id="trozoDurazno" name="trozoDurazno" value="trozoDurazno">
+        <label for="trozoDurazno">Trozo de Durazno</label>
+        <input type="number" id="trozoDurazno1" placeholder="¿Cuántos?"><br>
+
+        <input type="checkbox" id="trozoFresa" name="trozoFresa" value="trozoFresa">
+        <label for="trozoFresa">Trozo de Fresa</label>
+        <input type="number" id="trozoFresa1" placeholder="¿Cuántos?"><br>
+
+        <input type="checkbox" id="trozoNuez" name="trozoNuez" value="trozoNuez">
+        <label for="trozoNuez">Tozo de Nuez</label>
+        <input type="number" id="trozoNuez1" placeholder="¿Cuántos?"><br>
+
+        <input type="checkbox" id="florecitaRosa" name="florecitaRosa" value="florecitaRosa">
+        <label for="florecitaRosa">Florecitas Rosas</label>
+        <input type="number" id="florecitaRosa1" placeholder="¿Cuántos?"><br>
+
+        <input type="checkbox" id="mariposasChoco" name="mariposasChoco" value="mariposasChoco">
+        <label for="mariposasChoco">Mariposas de Chocolate</label>
+        <input type="number" id="mariposasChoco1" placeholder="¿Cuántos?"><br>
+    <br><br>
+        <input type="reset">
+        <input type="submit" value="Enviar pedido">
+        <input type="button" value="Regresar a la página principal" onclick="history.back()">
+        <br><br>
+    </form>
+    <hr>
+    <footer>
+        Estamos a tus órdenes en: Avenida de las Partidas, Lerma Estado de México, CP. 89897
+        <br>
+        Teléfono: 72212345678
+        <br>
+        Email: giovanni.pasteleria@gmail.com
+        <br>
+    </footer>
+</body>
+</html>
